@@ -1,8 +1,8 @@
 
 "
 " File       : ~/.vimrc
-" Maintainer : Rafael Viotti <rviotti@gmail.com>
-" Last change: 2009 Mar 24
+" Maintainer : Ricardo Dani <ricardodani@gmail.com>
+" Last change: 2012 Sep 19
 "
 
 " Use Vim settings, rather than Vi settings (much better!).
@@ -94,15 +94,9 @@ map <silent> <F5> :%s/\s\+$//g<CR>
 map <silent> <F6> :%s/\t/        /g<CR>
 
 " Novas atribuições em teste
-
 set incsearch
-
 set magic               " usa 'magia' ao procurar texto =)
-
 set laststatus=1        " mostra sempre a statusbar com o nome do ficheiro
-
-
-
 set smarttab                   "Tabulacao inteligente
 set smartindent
 set autoindent
@@ -111,11 +105,6 @@ set shiftwidth=4              "Quando o autoindent faz um tab, ele é do tamanho
 set softtabstop=4            "Tecla Backspace volta 4 espaços quando estiver numa identação
 set sm                            " mostra o ultimo par de parenteses fechados
 set wildmode=longest,list       " mostra completacoes ao usar o TAB
-
-set tb=
-
-
-
 set showmode
 set showcmd                     " mostra comando incomletos (marcar caracter, etc)
 set shortmess=atI               " mensagens abreviadas
